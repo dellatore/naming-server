@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: naming-server
+server:
+  port: 8761
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+#    se nao setar esses 2 campos ele fica se registrando nele mesmo
