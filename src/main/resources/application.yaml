@@ -7,4 +7,6 @@ eureka:
   client:
     register-with-eureka: false
     fetch-registry: false
+    service-url:
+      defaultZone: http://localhost:8761/eureka
 #    se nao setar esses 2 campos ele fica se registrando nele mesmo
